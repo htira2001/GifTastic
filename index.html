@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Movie Show Giphy</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+
+    <!--- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron text-center" id="jumbotron">
+            <h1 style="color: white;">Welcome to Movies Show!</h1>
+            <br></br>
+            <div class="container">
+                <div class="row" id="buttonsHolder"></div>
+                <br><br>
+                <div class="col-sm-9" id="userResponse">
+                    <input type="search" class="form-control" placeholder="Type in the name of a movies show..." id="userInput">
+                </div>
+                <div>
+                    <button type="Submit" style="width: 100px;" id="search" class="btn btn-default">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Area for Giphs -->
+    <div class="container">
+        <div class="box">
+            <div id="gifHolder">
+                <div class="row" id="gifRowOne"></div>
+                <div class="row" id="gifRowTwo"></div>
+                <div class="row" id="gifRowThree"></div>
+                <div class="row" id="gifRowFour"></div>
+                <div class="row" id="gifRowFive"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="assets/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+#jumbotron {
+    margin-top: 30px;    
+    background-image: url("../assets/images/movietheater.jpg");
+}
+body{
+    background-image: url("../assets/images/background.jpg");
+    background-repeat: repeat;
+}
+/* Media Queries */ 
+@media (min-width: 576px) {  
+    .giphy-img-container {
+      max-width: 50%;
+    }
+  }
+  @media (min-width: 768px) {
+    .giphy-img-container {
+      max-width: 33%;
+    }
+  }
